@@ -93,7 +93,7 @@ body{
     padding-bottom: 50px;
 }
 
-/* ANIMALS AND PLACES PAGE INFO-BOX */
+/* ANIMALS AND PLACES INFOR PAGE INFO-BOX */
 
 a.info-box{
     text-decoration: none;
@@ -149,4 +149,55 @@ a.info-box{
 
 #info-box-full > h3{
     text-align: center;
+}
+/* WEATHER INFO PAGE STYLES */
+
+img.info-box-weather-icon{
+    height: 30px;
+    width: 30px !important;
+    margin: 10px;
+    float: left;
+}
+
+h1.info-box-weather-icon{
+    font-size: 65px;
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    border-top: solid #131313;
+}
+
+/* FEEDBACK FORM */
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    background-color: forestgreen;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+
+textarea{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
 }
